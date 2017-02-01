@@ -1,0 +1,23 @@
+{
+  "name": "wheel-hub-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calvinkw1/wheel-hub-react.git"
+  },
+  "author": "Calvin Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calvinkw1/wheel-hub-react/issues"
+  },
+  "homepage": "https://github.com/calvinkw1/wheel-hub-react",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
