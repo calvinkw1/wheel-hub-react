@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wheel Hub</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<h1 class="appName">Wheel Hub</h1>
+	
+		<div class="addyForm">
+			<form action="javascript:void(0);">
+			<span>Enter Start Address:</span>
+				<label for="addyBox"></label>
+				<input type="text" id="addyBox" placeholder="Ex: 225 Bush Street, SF">
+				<input type="submit" id="submitBtn" value="Get location">
+			</form>
+		</div>
+		
+		<div class="directionsBox">
+			<div class="container-fluid" id="directions-panel">
+			</div>
+			<br>
+			<!-- <button id="undoMarker">Undo Marker</button> -->
+
+		</div>
+
+
+		<div class="mainBox">
+			<div class="getStarted">
+					<h3>Wheel Hub is the only app you will ever need to plan your next bike ride route while also exploring the neighborhoods or cities that you ride through! Simply choose a starting point and then drop markers on the map to plot your route! 
+					<br> 
+					<br>
+					Every time you drop a marker, locations of interest will pop up based on the radius of that marker! Feel free to change your route to include these places if you want to grab say.. a mid-ride Indian Pale Ale or a carb-loading lunch! Click below when you're ready to get started!</h3>
+		
+					<br>
+					<br>
+					<br>
+				
+					<button id="getStartedBtn" type="button" class="btn btn-primary btn-lg btn-block">Get Started!</button>
+				</div>
+			<div id="map-canvas"></div>
+
+		</div>
+
+		<div class="placesList">
+			<div class="listItems container-fluid">
+				
+			</div>
+		</div>
+		<div class="instructPanel">
+			<img src="assets/map_marker_start.png">
+			<div>
+			Enter in your starting location's address!
+			</div>
+		</div>
+
+	<!-- This reference includes both Google Maps and Places APIs -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBI5LF1sVoWrTNs-bBkPwOO38j8vFPUuh4"></script>
+	<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script> -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+.appName {
+	font-family: Impact;
+	letter-spacing: 7px;
+	font-variant: small-caps;
+	text-align: center;
+	color: white;
+	font-size: 5em;
+	width: 25%;
+	height: auto;
+	background-color: #28d3c5;
+	display: block;
+	border-radius: 15px;
+}
+
+.mainWrap {
+	margin: 0 auto;
+}
+
+.addyForm {
+	font-family: Impact;
+	font-variant: small-caps;
+	padding-left: 10px;
+	width: 35%;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: none;
+	color: white;
+	background-color: #28d3c5;
+	border-radius: 15px;
+	font-size: 15px;
+}
+
+span {
+	font-size: 20px;
+}
+
+#addyBox {
+	width: 300px;
+	height: 50px;
+	color: black;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 15pt;
+}
+
+#submitBtn {
+	margin-left: 10px;
+	background-color: navy;
+	border-radius: 10px;
+}
+
+.directionsBox {
+	margin-left: 30px;
+	height: 500px;
+	width: 300px;
+	background-color: white;
+	display: inline-block;
+	visibility: hidden;
+	overflow-y: scroll;
+	border-radius: 20px;
+}
+
+#directionsPanel {
+	background-color: white;
+}
+
+.mainBox {
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	position: relative;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	padding-left: 40px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 20px;
+}
+
+.placesList {
+	height: 500px;
+	width: 300px;
+	background-color: white;
+	display: inline-block;
+	visibility: hidden;
+	overflow-y: scroll;
+	border-radius: 20px;
+}
+
+.listItems {
+	margin-top: 10px;
+}
+
+.item {
+/*	border-top: 2px solid grey;
+*/	border-bottom: 2px solid grey;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+body {
+	background-image: url(assets/city-bike.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	width: auto;
+}
+
+.getStarted {
+	margin-top: 50px;
+	position: absolute;
+	height: 90%;
+	width: 90%;
+	z-index: 99999;
+}
+ #getStartedBtn {
+ 	margin: 0 auto;
+ 	width: 70%;
+ 	opacity: 1;
+ }
+
+#map-canvas {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	border-radius: 20px;
+}
+
+.placesMarker {
+	height: 20px;
+	width: auto;
+}
+
+.instructPanel {
+	height: 70px;
+	width: 600px;
+	background-color: #28d3c5;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
+	font-family: Impact;
+	font-variant: small-caps;
+	color: white;
+	font-size: 17pt;
+	border-radius: 15px;
+	display: block;
+/*	visibility: hidden;*/
+	display: none;
+}
+
+img {
+	display: inline-block;
+}
+
+.instructPanel div {
+	display: inline-block;
+}
